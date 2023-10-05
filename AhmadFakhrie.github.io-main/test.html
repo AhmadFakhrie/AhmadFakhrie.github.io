@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Data Siswa</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>Form Input Data Siswa</h1>
+    </header>
+
+    <section class="form-container">
+        <h2>Formulir Data Siswa</h2>
+        <form action="proses_form.php" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="kelas">Kelas:</label>
+            <input type="text" id="kelas" name="kelas" required>
+
+            <label for="alamat">Alamat:</label>
+            <textarea id="alamat" name="alamat" required></textarea>
+
+            <input type="submit" value="Simpan">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Nama Anda</p>
+    </footer>
+</body>
+</html>
