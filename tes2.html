@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loop dan Percabangan</title>
+</head>
+<body>
+  <script>
+    function cekGenapGanjil() {
+  var hasilGenap = [];
+  var hasilGanjil = [];
+
+  for (var i = 1; i <= 10; i++) {
+    if (i % 2 === 0) {
+      hasilGenap.push(i); // Jika genap, tambahkan ke hasilGenap
+    } else {
+      hasilGanjil.push(i); // Jika ganjil, tambahkan ke hasilGanjil
+    }
+  }
+
+  console.log("Bilangan Genap: " + hasilGenap.join(", "));
+  console.log("Bilangan Ganjil: " + hasilGanjil.join(", "));
+}
+
+// Panggil fungsi untuk menjalankannya
+cekGenapGanjil();
+  </script>
+</body>
+</html>
